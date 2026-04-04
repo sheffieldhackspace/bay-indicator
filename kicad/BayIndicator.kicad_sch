@@ -935,144 +935,74 @@
 		(uuid "1006b3fc-345b-43c4-90bc-58c9a59290e4")
 	)
 	(no_connect
-		(at 146.05 49.53)
-		(uuid "1ddd5d3c-0463-4219-b628-6bf2bce73459")
+		(at 146.05 64.77)
+		(uuid "119936ca-7142-4260-8a86-a3ddda356b90")
+	)
+	(no_connect
+		(at 71.12 60.96)
+		(uuid "4afbc722-cc73-4140-bb13-75c54e14edd6")
 	)
 	(no_connect
 		(at 86.36 71.12)
 		(uuid "533d9fc7-f22b-44d2-8b59-8aa9ffa35567")
 	)
 	(no_connect
-		(at 31.75 46.99)
-		(uuid "69910e44-16be-4587-917e-6bc075aa5116")
+		(at 146.05 62.23)
+		(uuid "54ae8e1f-da62-4011-a411-b28f6fe5fcea")
 	)
 	(no_connect
-		(at 146.05 52.07)
-		(uuid "7c61f405-a1e5-466d-9dac-0db3acc8341d")
+		(at 146.05 39.37)
+		(uuid "7565ba64-65d9-45c9-b26b-3dd3848dd7fd")
 	)
 	(no_connect
 		(at 71.12 38.1)
 		(uuid "81c38574-3cd6-498e-b091-8598e27f82a3")
 	)
 	(no_connect
-		(at 44.45 49.53)
-		(uuid "899a760b-4681-4b36-9e5e-3ec712174822")
-	)
-	(no_connect
-		(at 106.68 49.53)
-		(uuid "91c517b6-1d06-4182-b7ac-9ad9b958a485")
-	)
-	(no_connect
-		(at 44.45 52.07)
-		(uuid "9dd912c2-b451-41f1-a16e-eb66098bd1c8")
+		(at 133.35 59.69)
+		(uuid "96e6ae94-8021-47ea-9006-69cd7f60c317")
 	)
 	(no_connect
 		(at 91.44 71.12)
 		(uuid "a7389afc-8e46-49d9-b618-0c7edd72cbc7")
 	)
 	(no_connect
-		(at 133.35 46.99)
-		(uuid "d2c6c661-0971-42a4-a51b-8c62c947f125")
+		(at 146.05 36.83)
+		(uuid "c5e49510-3fb6-415b-a4ea-5eaee7c44ed8")
 	)
 	(no_connect
-		(at 71.12 49.53)
-		(uuid "e7db8c48-1358-4dc1-b803-0482b0899918")
+		(at 106.68 60.96)
+		(uuid "daf1b8a5-16fb-418a-9efc-174cbedcdb01")
+	)
+	(no_connect
+		(at 133.35 34.29)
+		(uuid "e99f1720-fe01-4455-b74e-c8bcae92261a")
 	)
 	(no_connect
 		(at 71.12 41.91)
 		(uuid "fdcdc6ea-08a0-4dc1-8e47-e0aac2aecb17")
 	)
-	(label "MOSI 1"
-		(at 71.12 60.96 180)
+	(label "CLK 1"
+		(at 133.35 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1c833495-a923-4208-bc91-2b8649375652")
-	)
-	(label "LATCH 1"
-		(at 31.75 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "22f4033d-6b86-4144-bde3-d8144277789a")
+		(uuid "093f4567-6c9d-4bd8-8179-70449727d15a")
 	)
 	(label "CLK 2"
-		(at 133.35 52.07 180)
+		(at 133.35 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "36988b67-6c77-4cff-923f-0cbd619a1fc0")
+		(uuid "482b9c04-2208-4b68-bae9-970553b2001b")
 	)
-	(label "MOSI 2"
-		(at 106.68 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fcbdcd5-0068-489f-b4da-d55eaee68165")
-	)
-	(label "MOSI 2"
-		(at 133.35 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "66c48ba5-4eca-440f-9469-cb38e88b6788")
-	)
-	(label "CLK 1"
-		(at 31.75 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81ddcc1a-e6bf-43d3-aff9-3f8d448530e8")
-	)
-	(label "LATCH 1"
-		(at 71.12 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90840b2e-2bcf-42cc-ae0b-aebecd977ba0")
-	)
-	(label "LATCH 2"
-		(at 106.68 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5b3f177-135a-481d-9bcc-7fcf9feb68d6")
-	)
-	(label "LATCH 2"
-		(at 133.35 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd9fe8b5-4c5e-4924-992e-a2e081892fd8")
-	)
-	(label "CLK 1"
+	(label "MOSI 1"
 		(at 71.12 57.15 180)
 		(effects
 			(font
@@ -1080,19 +1010,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "eeefede1-2094-4873-8c8e-015ffc8bbabe")
+		(uuid "4bf521e5-4283-4d99-985d-18af8dde0ba4")
 	)
-	(label "MOSI 1"
-		(at 31.75 54.61 180)
+	(label "CLK 1"
+		(at 71.12 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f1690aa9-cfce-464f-9b2b-922fc4255402")
+		(uuid "57c01935-265b-49a2-8b3c-a9987bd5875e")
 	)
-	(label "CLK 2"
+	(label "LATCH 2"
+		(at 133.35 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6160f275-13eb-4078-b258-a7c93bdac924")
+	)
+	(label "MOSI 2"
 		(at 106.68 57.15 0)
 		(effects
 			(font
@@ -1100,11 +1040,71 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fb513a17-241f-4e27-8cf2-6e6e7906bb62")
+		(uuid "6c0abb88-9403-45f5-9fac-e1de9f7fe1e7")
+	)
+	(label "LATCH 1"
+		(at 71.12 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7957195c-408e-4aa9-a57c-8063fd506dee")
+	)
+	(label "LATCH 2"
+		(at 106.68 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8020b0f5-0d14-4e9d-bca8-eba6ade07086")
+	)
+	(label "MOSI 1"
+		(at 133.35 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b52d2102-fea7-4eca-825d-a15e0f3cc199")
+	)
+	(label "MOSI 2"
+		(at 133.35 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c333784d-ce63-4a2b-8f2a-33da0d70b0d2")
+	)
+	(label "LATCH 1"
+		(at 133.35 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d287e46b-39f4-44bc-a5e5-f98706857c6e")
+	)
+	(label "CLK 2"
+		(at 106.68 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2fd637a-45de-441c-9823-d034bb26e53d")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 54.61 90)
+		(at 146.05 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1113,7 +1113,7 @@
 		(fields_autoplaced yes)
 		(uuid "31a1d301-145b-40c3-9c46-14f032c0e699")
 		(property "Reference" "#PWR06"
-			(at 50.8 54.61 0)
+			(at 152.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 54.6101 90)
+			(at 149.86 41.9101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 54.61 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 54.61 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1149,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 54.61 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,7 +1161,7 @@
 			(uuid "47a7edea-c282-42ae-872e-4adaeea6d37c")
 		)
 		(instances
-			(project "AS1100"
+			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
 					(reference "#PWR06")
 					(unit 1)
@@ -1171,7 +1171,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 36.83 49.53 0)
+		(at 138.43 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1180,7 +1180,7 @@
 		(fields_autoplaced yes)
 		(uuid "379d1f55-0eaf-4c86-972e-8c3f5b0f5674")
 		(property "Reference" "J1_TOP"
-			(at 38.1 40.64 0)
+			(at 139.7 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1188,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Odd_Even"
-			(at 38.1 43.18 0)
+			(at 139.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +1196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 49.53 0)
+			(at 138.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 49.53 0)
+			(at 138.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1214,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 49.53 0)
+			(at 138.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1247,7 @@
 			(uuid "f51589b1-4bf6-4de0-9f69-79f8cd2e7138")
 		)
 		(instances
-			(project "AS1100"
+			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
 					(reference "J1_TOP")
 					(unit 1)
@@ -1314,7 +1314,7 @@
 			(uuid "29ce2b1c-a8ba-4a55-9f15-5a3e654b61ec")
 		)
 		(instances
-			(project "AS1100"
+			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
 					(reference "#PWR01")
 					(unit 1)
@@ -1324,7 +1324,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 44.45 46.99 270)
+		(at 146.05 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1333,7 +1333,7 @@
 		(fields_autoplaced yes)
 		(uuid "67399320-ef8e-4c84-a78e-7f85e68eee10")
 		(property "Reference" "#PWR02"
-			(at 40.64 46.99 0)
+			(at 142.24 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1342,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 48.26 46.9899 90)
+			(at 149.86 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 46.99 0)
+			(at 146.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 46.99 0)
+			(at 146.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 46.99 0)
+			(at 146.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,7 +1381,7 @@
 			(uuid "d80ae874-03d9-429f-a29b-84d579397186")
 		)
 		(instances
-			(project "AS1100"
+			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
 					(reference "#PWR02")
 					(unit 1)
@@ -1448,7 +1448,7 @@
 			(uuid "9ad6dc01-32d0-4508-87e4-ef3b346db4ea")
 		)
 		(instances
-			(project "AS1100"
+			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
 					(reference "#PWR03")
 					(unit 1)
@@ -1580,7 +1580,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 146.05 46.99 270)
+		(at 146.05 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1589,7 +1589,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfc0282e-b215-4c08-b1b0-53a76becf4e6")
 		(property "Reference" "#PWR04"
-			(at 142.24 46.99 0)
+			(at 142.24 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1598,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 149.86 46.9899 90)
+			(at 149.86 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1607,7 +1607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 46.99 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 46.99 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 46.99 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1637,7 @@
 			(uuid "47aef3f6-32ea-4c04-84fb-829ae5988dec")
 		)
 		(instances
-			(project "AS1100"
+			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
 					(reference "#PWR04")
 					(unit 1)
@@ -1647,7 +1647,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 138.43 49.53 0)
+		(at 138.43 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1656,7 +1656,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6a03686-8f56-404c-aceb-5abbc6416365")
 		(property "Reference" "J2_BOTTOM"
-			(at 139.7 40.64 0)
+			(at 139.7 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +1664,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Odd_Even"
-			(at 139.7 43.18 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1672,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 49.53 0)
+			(at 138.43 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 49.53 0)
+			(at 138.43 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1690,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 49.53 0)
+			(at 138.43 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +1723,7 @@
 			(uuid "83e11329-b2d2-43cd-8352-d8f6e3ace08b")
 		)
 		(instances
-			(project ""
+			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
 					(reference "J2_BOTTOM")
 					(unit 1)
@@ -1733,7 +1733,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 54.61 90)
+		(at 146.05 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1742,7 +1742,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8dfa59c-73c2-4d2a-bb06-98932a77ad6d")
 		(property "Reference" "#PWR05"
-			(at 152.4 54.61 0)
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,7 +1751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 54.6101 90)
+			(at 149.86 67.3101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 54.61 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 54.61 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 54.61 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1790,7 @@
 			(uuid "7e3261c3-e088-455e-a931-10a49a7f8a06")
 		)
 		(instances
-			(project "AS1100"
+			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
 					(reference "#PWR05")
 					(unit 1)
