@@ -43,7 +43,7 @@ void BayIndicator::begin() {
   sendCmd(AS1100_REG_CLOCK | 0x00);
   sendCmd(AS1100_REG_DECODE | 0x00);
   sendCmd(AS1100_REG_SCAN | 0x07);
-  sendCmd(AS1100_REG_INTENSITY | 0x00);
+  sendCmd(AS1100_REG_INTENSITY | 0x01);
   sendCmd(AS1100_REG_SHUTDOWN | 0x01);
 
   display();

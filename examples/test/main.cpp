@@ -5,11 +5,11 @@
 #include <Arduino.h>
 #include <BayIndicator.h>
 
-BayIndicator display1 = BayIndicator(D5, D6, D4);
-BayIndicator display2 = BayIndicator(D8, D7, D9);
+BayIndicator display1 = BayIndicator(D4, D5, D3);
+BayIndicator display2 = BayIndicator(D9, D8, D10);
 
 void setup() {
-  delay(1000);
+  delay(10000);
 
   display1.begin();
   display2.begin();
