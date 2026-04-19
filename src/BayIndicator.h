@@ -39,7 +39,7 @@ class BayIndicator : public GFXcanvas1 {
 public:
   BayIndicator(int8_t sck, int8_t mosi, int8_t latch);
 
-  void begin();
+  void begin(uint8_t intensity = 1);
   void display();
   void invertDisplay(bool invert) override { _invert = invert; }
 

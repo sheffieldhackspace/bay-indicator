@@ -11,8 +11,8 @@ BayIndicator display2 = BayIndicator(D9, D8, D10);
 void setup() {
   delay(10000);
 
-  display1.begin();
-  display2.begin();
+  display1.begin(3);
+  display2.begin(5);
 
   for (int i = 0; i < 192; i++) {
     for (int j = 0; j < 9; j++) {

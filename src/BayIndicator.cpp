@@ -36,14 +36,16 @@ BayIndicator::BayIndicator(const int8_t sck, const int8_t mosi, const int8_t lat
   digitalWrite(_latch, HIGH);
 }
 
-void BayIndicator::begin() {
+void BayIndicator::begin(uint8_t intensity) {
+  if (intensity > 15) intensity = 0;
+
   _spi.begin();
 
   sendCmd(AS1100_REG_CLOCK | 0x02);
   sendCmd(AS1100_REG_CLOCK | 0x00);
   sendCmd(AS1100_REG_DECODE | 0x00);
   sendCmd(AS1100_REG_SCAN | 0x07);
-  sendCmd(AS1100_REG_INTENSITY | 0x01);
+  sendCmd(AS1100_REG_INTENSITY | intensity);
   sendCmd(AS1100_REG_SHUTDOWN | 0x01);
 
   display();

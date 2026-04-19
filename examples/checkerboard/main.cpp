@@ -14,6 +14,9 @@ void setup() {
   display1.begin();
   display2.begin();
 
+  display1.setBrightness(5);
+  display2.setBrightness(5);
+
   for (int i = 0; i < 192; i++) {
     for (int j = 0; j < 9; j++) {
       bool bit = false;
