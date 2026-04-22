@@ -1182,6 +1182,16 @@
 		)
 		(uuid "093f4567-6c9d-4bd8-8179-70449727d15a")
 	)
+	(label "MOSI 1"
+		(at 71.12 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b1b5f19-708a-49b8-a90a-9e3f2369c4f3")
+	)
 	(label "CLK 2"
 		(at 133.35 64.77 180)
 		(effects
@@ -1191,16 +1201,6 @@
 			(justify right bottom)
 		)
 		(uuid "482b9c04-2208-4b68-bae9-970553b2001b")
-	)
-	(label "MOSI 1"
-		(at 71.12 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4bf521e5-4283-4d99-985d-18af8dde0ba4")
 	)
 	(label "CLK 1"
 		(at 71.12 53.34 180)
@@ -1233,14 +1233,14 @@
 		(uuid "6c0abb88-9403-45f5-9fac-e1de9f7fe1e7")
 	)
 	(label "LATCH 1"
-		(at 71.12 49.53 180)
+		(at 71.12 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "7957195c-408e-4aa9-a57c-8063fd506dee")
+		(uuid "786919a8-1541-41c5-8944-026d9b7e6d46")
 	)
 	(label "LATCH 2"
 		(at 106.68 49.53 0)
