@@ -2,7 +2,8 @@
 
 An Adafruit GFX compatible driver for the Infotec bay indicator AS1100-based dot matrix display.
 
-![Picture of the bay indicator display removed from the enclosure](images/bay-indicator.jpeg)
+![Picture of the bay indicator display](images/bay-indicator-1.jpeg)
+![Picture of the bay indicator display without the enclosure](images/bay-indicator-2.jpeg)
 
 ## Hardware
 
@@ -13,7 +14,7 @@ An Adafruit GFX compatible driver for the Infotec bay indicator AS1100-based dot
 
 ### Schematic
 
-![Screenshot of a schematic presenting the pinout](images/schema.png)
+![Screenshot of a schematic presenting the pinout](images/schematic.png)
 
 See the [KiCad project](./kicad) for the full schematic.
 
@@ -23,7 +24,7 @@ See the [KiCad project](./kicad) for the full schematic.
 
 ### Prototype
 
-![Photo of the prototyped circuit board](images/proto.jpeg)
+![Photo of the prototyped circuit board](images/prototype.jpeg)
 
 ## Installation
 
