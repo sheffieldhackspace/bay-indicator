@@ -30,10 +30,10 @@
 BayIndicator::BayIndicator(const int8_t sck, const int8_t mosi, const int8_t latch)
   : GFXcanvas1(192, 9),
     _invert(false),
-    _spi(-1, sck, -1, mosi, 10000000, SPI_BITORDER_MSBFIRST, SPI_MODE3),
+    _spi(-1, sck, -1, mosi, 10000000, SPI_BITORDER_MSBFIRST, SPI_MODE0),
     _latch(latch) {
   pinMode(_latch, OUTPUT);
-  digitalWrite(_latch, HIGH);
+  digitalWrite(_latch, LOW);
 }
 
 void BayIndicator::begin(uint8_t intensity) {
@@ -57,12 +57,12 @@ void BayIndicator::display() {
       uint8_t value = 0;
 
       if (digit > 1) {
-        value |= getPixel(192 - chip * 6 - (digit - 1), 8) ^ _invert;
+        value |= getRawPixel(192 - chip * 6 - (digit - 1), 8) ^ _invert;
       }
 
       for (int i = 0; i < 6; i++) {
         value <<= 1;
-        value |= getPixel(192 - chip * 6 - (i + 1), 8 - (digit + 1)) ^ _invert;
+        value |= getRawPixel(192 - chip * 6 - (i + 1), 8 - (digit + 1)) ^ _invert;
       }
 
       write16(((digit + 1) << 8) | value);
@@ -74,7 +74,10 @@ void BayIndicator::display() {
 
 void BayIndicator::latch() const {
   digitalWrite(_latch, LOW);
+  delayMicroseconds(1);
   digitalWrite(_latch, HIGH);
+  delayMicroseconds(1);
+  digitalWrite(_latch, LOW);
 }
 
 void BayIndicator::sendCmd(int data) {
