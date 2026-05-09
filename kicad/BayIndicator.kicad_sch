@@ -1402,7 +1402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1699,7 +1699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "379d1f55-0eaf-4c86-972e-8c3f5b0f5674")
-		(property "Reference" "J1_TOP1"
+		(property "Reference" "JTOP1"
 			(at 139.7 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,7 +1779,7 @@
 		(instances
 			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
-					(reference "J1_TOP1")
+					(reference "JTOP1")
 					(unit 1)
 				)
 			)
@@ -2249,7 +2249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6a03686-8f56-404c-aceb-5abbc6416365")
-		(property "Reference" "J2_BOTTOM1"
+		(property "Reference" "JBOTTOM1"
 			(at 139.7 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2329,7 +2329,7 @@
 		(instances
 			(project "BayIndicator"
 				(path "/abca6d84-0381-4009-9124-d61ad9791431"
-					(reference "J2_BOTTOM1")
+					(reference "JBOTTOM1")
 					(unit 1)
 				)
 			)
