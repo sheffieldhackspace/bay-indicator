@@ -12,6 +12,10 @@ An Adafruit GFX compatible driver for the Infotec bay indicator AS1100-based dot
 * Operating voltage: 3.3V
 * Power voltage: 5V
 
+### Prototype
+
+![Photo of the prototyped circuit board](images/prototype.jpeg)
+
 ### Schematic
 
 ![Screenshot of a schematic presenting the pinout](images/schematic.png)
@@ -20,11 +24,11 @@ See the [KiCad project](./kicad) for the full schematic.
 
 ### PCB Design
 
-![Screenshot of a PCB design from KiCAD](images/pcb.png)
+![Screenshot of a PCB design from KiCAD](images/pcb-1.png)
 
-### Prototype
+### PCB
 
-![Photo of the prototyped circuit board](images/prototype.jpeg)
+![Photo of a soldered PCB](images/pcb-2.jpeg)
 
 ## Installation
 
@@ -74,7 +78,10 @@ void loop() {
 }
 ```
 
-Since `BayIndicator` inherits from `GFXcanvas1`, the full [Adafruit GFX API](https://learn.adafruit.com/adafruit-gfx-graphics-library) is available for drawing text, shapes, and bitmaps. Call `display.display()` to flush the canvas to the hardware.
+Since `BayIndicator` inherits from `GFXcanvas1`, the full
+[Adafruit GFX API](https://learn.adafruit.com/adafruit-gfx-graphics-library)
+is available for drawing text, shapes, and bitmaps. Call `display.display()`
+to flush the canvas to the hardware.
 
 ## Examples
 
