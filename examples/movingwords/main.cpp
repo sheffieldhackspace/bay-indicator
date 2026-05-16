@@ -5,7 +5,7 @@
 #include <Arduino.h>
 #include <BayIndicator.h>
 
-BayIndicator display1 = BayIndicator(D4, D5, D3);
+BayIndicator display1 = BayIndicator(D4, D3, D5);
 BayIndicator display2 = BayIndicator(D9, D8, D10);
 
 uint16_t topX = 0;
